@@ -74,5 +74,7 @@ public class HtmlGetTest {
 			System.out.println(time.substring(285, time.length()-2));
 			Thread.sleep(5000);
 		}
+		
+		
 	}
 }
