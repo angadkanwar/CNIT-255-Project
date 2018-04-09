@@ -9,6 +9,13 @@ package project;
  *
  * @author angad
  */
-public class Graduate {
-    
+public class Graduate extends Person
+{
+    String speciality;
+    String advisor;
+    public void Graduate(String s, String a)
+    {
+        speciality = s;
+        advisor = a;
+    }
 }

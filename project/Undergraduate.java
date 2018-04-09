@@ -9,6 +9,15 @@ package project;
  *
  * @author angad
  */
-public class Undergraduate {
-    
+public class Undergraduate extends Person
+{
+    String major;
+    int credits;
+    double gpa;
+    public void Undergraduate(String m, int c, double g)
+    {
+        major = m;
+        credits = c;
+        gpa = g;
+    }
 }

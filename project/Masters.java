@@ -9,6 +9,11 @@ package project;
  *
  * @author angad
  */
-public class Masters {
-    
+public class Masters extends Graduate
+{
+    String subject;
+    public void Masters(String s)
+    {
+        subject = s;
+    }
 }

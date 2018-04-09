@@ -9,6 +9,11 @@ package project;
  *
  * @author angad
  */
-public class Tenured {
-    
+public class Tenured extends Professor
+{
+    int tenureL;
+    public void Tenured(int t)
+    {
+        tenureL = t;
+    }
 }
